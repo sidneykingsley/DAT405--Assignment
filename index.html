@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SUNSET</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="sketch2.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <!--<header id="title"><h2>S U N S E T</h2></header>-->
+      <div id="myContainer"></div>
+      <div id="everything"></div>
+      <div id="text"><h1>s u n s e t</h1></div>
+      <!--<img src="icon.png" id="icon">-->
+      <div id="helptext">click for instructions</div>
+      <button id="icon" onclick="iconopen()"><img src="content/icon.png" onmouseover="this.src='content/icon2.png';" onmouseout="this.src='content/icon.png';" width="30px" height="30px"></button>
+      <div id="instructions">
+        <p5>The generative art piece will run itself using timers.</p5>
+        <p5>However, if you would like to change or interact with</p5>
+        <p5>it yourself, you can use these tools:</p5>
+        <ul>
+          <li>press enter to change from sunset to eclipse</li>
+          <li>space bar to apply perlin randomness</li>
+          <li>move the mouse up or down on the y axis to change the speed</li>
+          <li>click the icon to hide this message</li>
+        </ul>
+      </div>
+</body>
+</html>

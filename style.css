@@ -1,0 +1,80 @@
+body {
+  background-color: #000;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+}
+
+button:focus {outline:0;}
+
+#text {
+  font-family: Futura;
+  font-size: 8px;
+  /*color: #f4df4b;*/
+  color:rgba(238,222,89,1.0);
+  position: fixed;
+  width: 200px;
+  //font-style: italic;
+}
+
+
+#instructions {
+  font-family: Futura;
+  font-size: 12px;
+  /*color: #f4df4b;*/
+  color:#a4a4a4;
+  position: fixed;
+  width: 400px;
+  text-align: left;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+#title {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#everything {
+  position: fixed;
+  z-index: -1;
+}
+
+.myContainer {
+    margin-top: 10px;
+    margin-left: -8px;
+    position:fixed;
+}
+
+#icon {
+  position:fixed;
+  margin-top: 10px;
+}
+
+
+#helptext {
+  font-family: Futura;
+  font-size: 10px;
+  color:#3e3e3e;
+  position: fixed;
+  width: 400px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 40px;
+  visibility: visible;
+}
